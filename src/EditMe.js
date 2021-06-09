@@ -10,11 +10,11 @@ Ofcourse you may take full advantage of editing it yourself through the code if 
 // Page Styling ------------------------------------------------------------------
 
 export let pageStyling = {
-    backgroundColor: "#F67F59", // Main Page Background Color
-    foregroundColor: "#B8B3B1", // Foreground Color
+    backgroundColor: "#FD8B72", // Main Page Background Color
+    foregroundColor: "#FEFCFB", // Foreground Color
     primaryColor: "#FDFAF9", // Neon Color
     secondaryColor: "#4edcff", // Underglow Color
-    textColor: "#FDFAF9",
+    textColor: "#0A0A0A",
     subTextColor: "#B8B3B1",
     font: "Georgia",
     particleEffect: true,
@@ -26,38 +26,37 @@ export let navigation = {
     navLogo: { // Navigation Logo
         enabled: true, // Do you want to use a Branding?
         isImage: false, // Do you want to use an Image? If not, alt text will be used
-        imageURL: "https://www.wilsonfamilychiropracticcenter.net/wp-content/uploads/2018/12/placeholder-logo-2.png",
         logoWidth: "75px", // Size of your logo, adjustable without the CSS
-        altText: "Your Logo", // This will be used if it is not an Image (Will also be the alt text if it is an image)
+        altText: "CM", // This will be used if it is not an Image (Will also be the alt text if it is an image)
         linkTo: "#",
     },
 
     leftNavigation: [ // Add items to the left side of the navigation Bar
         {
-            text: "_External",
+            text: "",
             url: "#",
         },
     ],
 
     rightNavigation: [ // Add items to the right side of the navigation Bar
         {
-            text: "_About Me", // Text Value
+            text: "About Me", // Text Value
             url: "#aboutme", // Anchor points or External URLS, you may have to edit the App.js to add Anchors
         },
         {
-            text: "_Portfolio",
+            text: "Portfolio",
             url: "#portfolio",
         },
         {
-            text: "_Experience",
+            text: "Experience",
             url: "#experience",
         },
         {
-            text: "_Skills",
+            text: "Skills",
             url: "#skills",
         },
         {
-            text: "_Contact",
+            text: "Contact",
             url: "#",
         },
     ],
@@ -75,20 +74,20 @@ export let navigation = {
 // Information ------------------------------------------------------------------------
 
 export let information = {
-    fullName: "John D. Doe", // Name in Profile Banner
-    welcomeMsg: "Welcome! I am,", // Welcome subheading above Name
-    aboutMe: "Short Description of yourself!", // Short Description
-    companyName: "Position @ Company", // Your position @ a Company
+    fullName: "Caroline Miller", // Name in Profile Banner
+    welcomeMsg: "Welcome! I'm", // Welcome subheading above Name
+    aboutMe: "Full-stack web developer from Austin, Texas", // Short Description
+    companyName: "", // Your position @ a Company
     // Replace with the URL to your image (URL or Local Image)
-    profilePhoto: "https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+    profilePhoto: "https://imgur.com/9T0yR6w.jpg"
 };
 
 // Socials ----------------------------------------------------------------------------
 
 export let socials = {
-    twitterURL: "https://twitter.com/", // Twitter
-    githubURL: "https://github.com/", // Github
-    linkedinURL: "https://www.linkedin.com/in/", // LinkedIn
+    // twitterURL: "https://twitter.com/", // Twitter
+    githubURL: "https://github.com/caroline-e-miller", // Github
+    linkedinURL: "https://www.linkedin.com/in/caroline-miller-5097a71b6/", // LinkedIn
 };
 
 // About Me ----------------------------------------------------------------------------
@@ -105,16 +104,19 @@ export let portfolioCards = [
         projectTitle: "My Project 1",
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
         projectURL: "https://github.com/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/115125032-34cc3200-9f8b-11eb-8933-5b3efd607170.png"
     },
     {
         projectTitle: "My Project 2",
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
         projectURL: "https://github.com/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/115979938-7e4deb80-a54e-11eb-80e6-834f2e31ce1d.png"
     },
     {
         projectTitle: "My Project 3",
         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
         projectURL: "https://github.com/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/117221912-d64ae480-adcf-11eb-85ba-14112d86c3ba.png"
     },
 ];
 
@@ -175,19 +177,19 @@ export let skills = {
         // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
         // Some examples are shown below
         {
-            title: 'ReactJS', value: 45, color: '#28ACEA', experience: '3 years',
+            title: 'ReactJS', value: 45, color: '#28ACEA', experience: '1 year',
             description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'
         },
         {
-            title: 'Java', value: 25, color: '#19CEEB', experience: '2 years',
+            title: 'JavaScript', value: 25, color: '#19CEEB', experience: '2 years',
             description: 'Worked on multiple Minecraft Plugins and Text-Based Adventure Survival CLI game'
         },
         {
-            title: 'C++', value: 10, color: '#09EBEE', experience: '1 year',
+            title: 'NodeJS', value: 10, color: '#09EBEE', experience: '1 year',
             description: 'Sorting system of user class information'
         },
         {
-            title: 'Others', value: 20, color: '#00FEEF', experience: '1 year',
+            title: 'NoSQL', value: 20, color: '#00FEEF', experience: '1 year',
             description: 'Experience with Game Development such as Unity (C#) having 2 published games on the Play Store.'
         },
     ],
