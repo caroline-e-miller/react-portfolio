@@ -178,19 +178,19 @@ export let skills = {
         // Some examples are shown below
         {
             title: 'ReactJS', value: 45, color: '#28ACEA', experience: '1 year',
-            description: 'Built multiple ReactJS based websites with integration of NodeJS and Redux'
+            description: 'Built a full-stack health application designed for modern mental health needs.'
         },
         {
             title: 'JavaScript', value: 25, color: '#19CEEB', experience: '2 years',
-            description: 'Worked on multiple Minecraft Plugins and Text-Based Adventure Survival CLI game'
+            description: 'Designed a password generator that took user choices, and rendered a secure password tailored to their specifications.'
         },
         {
             title: 'NodeJS', value: 10, color: '#09EBEE', experience: '1 year',
-            description: 'Sorting system of user class information'
+            description: 'Created a README generator that creates a custom README based upon user input regarding their project.'
         },
         {
             title: 'NoSQL', value: 20, color: '#00FEEF', experience: '1 year',
-            description: 'Experience with Game Development such as Unity (C#) having 2 published games on the Play Store.'
+            description: 'Built a workout application that tracks the duration, type, etc. of a users workout. User history is rendered in various chart forms.'
         },
     ],
 }
