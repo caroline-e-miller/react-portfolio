@@ -30,7 +30,7 @@
 
 .companyName {
     font-size: 1.5em;
-    color: var(--secondary-color);
+    color: "#212121";
     font-weight: bold;
 }
 
@@ -47,7 +47,7 @@
 
 .role {
     font-size: 1.1em;
-    color: var(--primary-color);
+    color: "#9E9C9C";
 }
 
 .role-time {

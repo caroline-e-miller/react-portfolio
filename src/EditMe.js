@@ -13,7 +13,7 @@ export let pageStyling = {
     backgroundColor: "#FD8B72", // Main Page Background Color
     foregroundColor: "#FEFCFB", // Foreground Color
     primaryColor: "#FDFAF9", // Neon Color
-    secondaryColor: "#4edcff", // Underglow Color
+    secondaryColor: "#878484", // Underglow Color
     textColor: "#0A0A0A",
     subTextColor: "#B8B3B1",
     font: "Georgia",
@@ -102,19 +102,19 @@ export let portfolioCards = [
     {
         projectTitle: "Week Daze",
         projectDesc: "Week Daze is an application designed for users during a job search. It allows the user to save their applications, application status, and see graphs reflecting the length of time since their application was submitted.",
-        projectURL: "https://github.com/",
+        projectURL: "https://arcane-harbor-21800.herokuapp.com/",
         projectImg: "https://user-images.githubusercontent.com/70964778/115125032-34cc3200-9f8b-11eb-8933-5b3efd607170.png"
     },
     {
         projectTitle: "BiblioTech",
         projectDesc: "BiblioTech is a site designed to provide a space for programmers to create a profile, write about their ideas, and comment on the posts of their peers.",
-        projectURL: "https://github.com/",
+        projectURL: "https://evening-reef-25069.herokuapp.com/",
         projectImg: "https://user-images.githubusercontent.com/70964778/115979938-7e4deb80-a54e-11eb-80e6-834f2e31ce1d.png"
     },
     {
         projectTitle: "Workout Tracker",
         projectDesc: "Workout Tracker allows the user to track the duration, type, etc. of workouts and see data rendered in charts that reflects their progress.",
-        projectURL: "https://github.com/",
+        projectURL: "https://blooming-waters-15181.herokuapp.com/",
         projectImg: "https://user-images.githubusercontent.com/70964778/117221912-d64ae480-adcf-11eb-85ba-14112d86c3ba.png"
     },
 ];
@@ -124,37 +124,35 @@ export let portfolioCards = [
 export let experience = {
     experiences: [ // Preferably, sort by newest first
         {
-            companyLogo: "", // Leave Blank for Template Logo
-            companyName: "The New Company", // Company Name
-            companyLocation: "Selangor, Malaysia", // Location of Company
+            companyName: "Music Teacher", // Company Name
+            companyLocation: "Austin, Texas & St. Augustine, Florida", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
-                    role: "Software Engineer",
-                    type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Apr 2020", // Preferable format
+                    role: "Private bassoon instructor",
+                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "August 2018", // Preferable format
                     endPeriod: "Present", // End result will look like "Apr 2020 - Present"
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                    description: "Teaching students aged 10-18 of all skill levels how to grow and excel as musicians with the bassoon.",
                 },
                 {
-                    role: "Intern",
-                    type: "Internship", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Jan 2020", // Preferable format
-                    endPeriod: "Apr 2020", // End result will look like "Apr 2020 - Present"
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                    role: "Band Intern",
+                    type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "August 2017", // Preferable format
+                    endPeriod: "December 2017", // End result will look like "Apr 2020 - Present"
+                    description: "Rehearsed, organized, and conducted the 350-student Pacetti Bay Middle School Band and Jazz Band.",
                 },
             ],
         },
         {
-            companyLogo: "", // Leave Blank for Template Logo
-            companyName: "The Old Company", // Company Name
-            companyLocation: "United Kingdom", // Location of Company
+            companyName: "Quay", // Company Name
+            companyLocation: "Austin, Texas", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
-                    role: "Junior Full-Stack Developer",
+                    role: "Sales Associate",
                     type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "Dec 2019", // Preferable format
-                    endPeriod: "Jan 2020", // End result will look like "Apr 2020 - Present"
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sodales lectus ex, nec lacinia libero finibus in. Sed at mattis justo, feugiat cursus sapien. Proin blandit nisi nec mi iaculis, ac viverra felis sollicitudin. Aliquam rhoncus porta magna, non lacinia ipsum aliquam vitae. Vivamus fermentum dapibus mauris, varius consequat velit viverra egestas. Nunc eget lacus in tortor ultricies dignissim eget a eros. Suspendisse volutpat sit amet lorem non consectetur. Fusce sed ultricies felis.",
+                    startPeriod: "April 2021", // Preferable format
+                    endPeriod: "Present", // End result will look like "Apr 2020 - Present"
+                    description: "Worked with customers to help them find the best sunglasses and prescription eyewear for their individual needs. Coordinated with teammates to manage the store, and maintain customer engagement.",
                 },
             ],
         },
@@ -176,19 +174,19 @@ export let skills = {
         // Each Skill will have the title, value for the chart, color, experience (years, months) and a desscription on the task
         // Some examples are shown below
         {
-            title: 'ReactJS', value: 45, color: '#28ACEA', experience: '1 year',
+            title: 'ReactJS', value: 45, color: '#484C4F', experience: '1 year',
             description: 'Built a full-stack health application designed for modern mental health needs.'
         },
         {
-            title: 'JavaScript', value: 25, color: '#19CEEB', experience: '2 years',
+            title: 'JavaScript', value: 25, color: '#6D7881', experience: '2 years',
             description: 'Designed a password generator that took user choices, and rendered a secure password tailored to their specifications.'
         },
         {
-            title: 'NodeJS', value: 10, color: '#09EBEE', experience: '1 year',
+            title: 'NodeJS', value: 10, color: '#99ACBB', experience: '1 year',
             description: 'Created a README generator that creates a custom README based upon user input regarding their project.'
         },
         {
-            title: 'NoSQL', value: 20, color: '#00FEEF', experience: '1 year',
+            title: 'NoSQL', value: 20, color: '#C0D4E5', experience: '1 year',
             description: 'Built a workout application that tracks the duration, type, etc. of a users workout. User history is rendered in various chart forms.'
         },
     ],
