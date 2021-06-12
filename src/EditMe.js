@@ -57,7 +57,7 @@ export let navigation = {
         },
         {
             text: "Contact",
-            url: "#",
+            url: "#aboutme",
         },
     ],
 
@@ -93,7 +93,7 @@ export let socials = {
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
-    description: "I'm an enthusiastic full-stack web developer certified with the Coding Boot Camp at the University of Texas at Austin. My goal is to draw upon my years of teaching experience to bring positivity, problem-solving, and collaboration to the workplace, and work with teams to produce creative solutions.",
+    description: "I'm an enthusiastic full-stack web developer certified with the Coding Boot Camp at the University of Texas at Austin. My goal is to draw upon my years of teaching experience to bring positivity, problem-solving, and collaboration to the workplace, and work with teams to produce creative solutions. \n \n \n Feel free to reach out to me at caroline.oconnor.miller@gmail.com, or via phone at 970-691-5493.",
 };
 
 // Portfolio ---------------------------------------------------------------------------
@@ -124,7 +124,7 @@ export let portfolioCards = [
 export let experience = {
     experiences: [ // Preferably, sort by newest first
         {
-            companyName: "Music Teacher", // Company Name
+            companyName: "Florida, Colorado, and Texas Public Schools", // Company Name
             companyLocation: "Austin, Texas & St. Augustine, Florida", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
@@ -133,6 +133,13 @@ export let experience = {
                     startPeriod: "August 2018", // Preferable format
                     endPeriod: "Present", // End result will look like "Apr 2020 - Present"
                     description: "Teaching students aged 10-18 of all skill levels how to grow and excel as musicians with the bassoon.",
+                },
+                {
+                    role: "Substitute Teacher",
+                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
+                    startPeriod: "January 2018", // Preferable format
+                    endPeriod: "May 2018", // End result will look like "Apr 2020 - Present"
+                    description: "Taught and managed classrooms while the regular teacher was absent. Led classrooms from pre-school to 12 grade in all subjects.",
                 },
                 {
                     role: "Band Intern",
@@ -144,7 +151,7 @@ export let experience = {
             ],
         },
         {
-            companyName: "Quay", // Company Name
+            companyName: "Quay Eyewear", // Company Name
             companyLocation: "Austin, Texas", // Location of Company
             roles: [ // Each company can have multiple Roles
                 {
