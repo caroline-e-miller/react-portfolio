@@ -10,7 +10,7 @@ Ofcourse you may take full advantage of editing it yourself through the code if 
 // Page Styling ------------------------------------------------------------------
 
 export let pageStyling = {
-    backgroundColor: "#FD8B72", // Main Page Background Color
+    backgroundColor: "#77CBD0", // Main Page Background Color
     foregroundColor: "#FEFCFB", // Foreground Color
     primaryColor: "#FDFAF9", // Neon Color
     secondaryColor: "#878484", // Underglow Color
@@ -67,7 +67,7 @@ export let navigation = {
         enabled: true, // Enable / Disable
         downloadIcon: true, // Show Icon
         text: "Resume", // Text on Button
-        url: "https://google.com", // Make sure to include https:// or http://. This is the download link to your stored Resume
+        url: "https://docs.google.com/document/d/1-1HZzFTyDAsqhsB0My2XmPy_Xk9w92yiEUUvEXlq47M/edit?usp=sharing", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
 
