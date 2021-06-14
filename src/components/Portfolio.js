@@ -23,6 +23,9 @@ function Portfolio() {
                                 <Col className="card-desc">{card.projectDesc}</Col>
                             </Row>
                             <Row>
+                                <Col className="card-desc">{card.projectRepo}</Col>
+                            </Row>
+                            <Row>
                                 <Col className="img-fluid"><img id="image" src={card.projectImg} alt="project photo" /></Col>
                             </Row>
                         </div>

@@ -92,37 +92,43 @@ export let portfolioCards = [
         projectTitle: "Mind Managed",
         projectDesc: "Mind Managed is an application designed to help users navigate, track, and manage their mental health needs. Complete with journaling, mood data, prescription information, and prescription intake history, Mind Managed aims to take the complicated task of maintaining mental balance and make it a little easier.",
         projectURL: "https://obscure-beyond-60909.herokuapp.com/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/121830119-ef299e00-cc89-11eb-9b6d-cbbc5c7ef8a1.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/121830119-ef299e00-cc89-11eb-9b6d-cbbc5c7ef8a1.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/project-3-group-8.git"
     },
     {
         projectTitle: "Week Daze",
         projectDesc: "Week Daze is an application designed for users during a job search. It allows the user to save their applications, application status, and see graphs reflecting the length of time since their application was submitted.",
         projectURL: "https://arcane-harbor-21800.herokuapp.com/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/115125032-34cc3200-9f8b-11eb-8933-5b3efd607170.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/115125032-34cc3200-9f8b-11eb-8933-5b3efd607170.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/project-2.git"
     },
     {
         projectTitle: "BiblioTech",
         projectDesc: "BiblioTech is a site designed to provide a space for programmers to create a profile, write about their ideas, and comment on the posts of their peers.",
         projectURL: "https://evening-reef-25069.herokuapp.com/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/115979938-7e4deb80-a54e-11eb-80e6-834f2e31ce1d.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/115979938-7e4deb80-a54e-11eb-80e6-834f2e31ce1d.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/tech-blog.git"
     },
     {
         projectTitle: "Workout Tracker",
         projectDesc: "Workout Tracker allows the user to track the duration, type, etc. of workouts and see data rendered in charts that reflects their progress.",
         projectURL: "https://blooming-waters-15181.herokuapp.com/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/117221912-d64ae480-adcf-11eb-85ba-14112d86c3ba.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/117221912-d64ae480-adcf-11eb-85ba-14112d86c3ba.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/workout-tracker.git"
     },
     {
         projectTitle: "Worlwide Workers",
         projectDesc: "Worldwide Workers is a React application that gives the user the ability to sort through a large number of employees by name and nationality.",
         projectURL: "https://caroline-e-miller.github.io/employee-directory/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/119277450-687f2500-bbe5-11eb-9634-8b79b8976037.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/119277450-687f2500-bbe5-11eb-9634-8b79b8976037.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/employee-directory.git"
     },
     {
         projectTitle: "Readme Generator",
         projectDesc: "The Readme Generator takes the sometimes-mundane task of writing a Readme file, and turns it into a simple series of command-line questions that results in an elegant Readme that is tailored toward the individual users project.",
         projectURL: "https://caroline-e-miller.github.io/employee-directory/",
-        projectImg: "https://user-images.githubusercontent.com/70964778/110176328-b8113a00-7dc8-11eb-85b8-757f5576312a.png"
+        projectImg: "https://user-images.githubusercontent.com/70964778/110176328-b8113a00-7dc8-11eb-85b8-757f5576312a.png",
+        projectRepo: "Repository: https://github.com/caroline-e-miller/readme-generator.git"
     },
 ];
 
