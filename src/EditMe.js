@@ -1,19 +1,11 @@
-/* 
-
-For CSS (Colours) editing, head to 'css/root.css'
-
-Here you can edit the main values for your page, such as the name, job title, etc.
-Ofcourse you may take full advantage of editing it yourself through the code if you wish.
-
-*/
 
 // Page Styling ------------------------------------------------------------------
 
 export let pageStyling = {
-    backgroundColor: "#77CBD0", // Main Page Background Color
-    foregroundColor: "#FEFCFB", // Foreground Color
-    primaryColor: "#FDFAF9", // Neon Color
-    secondaryColor: "#878484", // Underglow Color
+    backgroundColor: "#77CBD0",
+    foregroundColor: "#FEFCFB",
+    primaryColor: "#FDFAF9",
+    secondaryColor: "#878484",
     textColor: "#0A0A0A",
     subTextColor: "#B8B3B1",
     font: "Georgia",
@@ -23,25 +15,25 @@ export let pageStyling = {
 // Navigation --------------------------------------------------------------------
 
 export let navigation = {
-    navLogo: { // Navigation Logo
-        enabled: true, // Do you want to use a Branding?
-        isImage: false, // Do you want to use an Image? If not, alt text will be used
-        logoWidth: "75px", // Size of your logo, adjustable without the CSS
-        altText: "CM", // This will be used if it is not an Image (Will also be the alt text if it is an image)
+    navLogo: {
+        enabled: true,
+        isImage: false,
+        logoWidth: "75px",
+        altText: "C/M",
         linkTo: "#",
     },
 
-    leftNavigation: [ // Add items to the left side of the navigation Bar
+    leftNavigation: [
         {
             text: "",
             url: "#",
         },
     ],
 
-    rightNavigation: [ // Add items to the right side of the navigation Bar
+    rightNavigation: [
         {
-            text: "About Me", // Text Value
-            url: "#aboutme", // Anchor points or External URLS, you may have to edit the App.js to add Anchors
+            text: "About Me",
+            url: "#aboutme",
         },
         {
             text: "Portfolio",
@@ -61,12 +53,10 @@ export let navigation = {
         },
     ],
 
-    // Enable / Disable a Resume Button to allow a user to download your RESUME
-
     resumeBtn: {
-        enabled: true, // Enable / Disable
-        downloadIcon: true, // Show Icon
-        text: "Resume", // Text on Button
+        enabled: true,
+        downloadIcon: true,
+        text: "Resume",
         url: "https://docs.google.com/document/d/1-1HZzFTyDAsqhsB0My2XmPy_Xk9w92yiEUUvEXlq47M/edit?usp=sharing", // Make sure to include https:// or http://. This is the download link to your stored Resume
     }
 };
@@ -74,11 +64,9 @@ export let navigation = {
 // Information ------------------------------------------------------------------------
 
 export let information = {
-    fullName: "Caroline Miller", // Name in Profile Banner
-    welcomeMsg: "Welcome! I'm", // Welcome subheading above Name
-    aboutMe: "Full-stack web developer from Austin, Texas", // Short Description
-    companyName: "", // Your position @ a Company
-    // Replace with the URL to your image (URL or Local Image)
+    fullName: "Caroline Miller",
+    welcomeMsg: "Welcome! I'm",
+    aboutMe: "Full-stack web developer from Austin, Texas",
     profilePhoto: "https://imgur.com/9T0yR6w.jpg"
 };
 
@@ -141,45 +129,45 @@ export let portfolioCards = [
 // Experience -------------------------------------------------------------------------
 
 export let experience = {
-    experiences: [ // Preferably, sort by newest first
+    experiences: [
         {
             companyLogo: "https://media.guitarcenter.com/is/image/MMGS7/M100E-Professional-Bassoon/L58593000000000-00-500x500.jpg",
-            companyName: "Florida, Colorado, and Texas Public Schools", // Company Name
-            companyLocation: "Austin, Texas & St. Augustine, Florida", // Location of Company
-            roles: [ // Each company can have multiple Roles
+            companyName: "Florida, Colorado, and Texas Public Schools",
+            companyLocation: "Austin, Texas & St. Augustine, Florida",
+            roles: [
                 {
                     role: "Private bassoon instructor",
-                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "August 2018", // Preferable format
-                    endPeriod: "Present", // End result will look like "Apr 2020 - Present"
+                    type: "Part-Time",
+                    startPeriod: "August 2018",
+                    endPeriod: "Present",
                     description: "Teaching students aged 10-18 of all skill levels how to grow and excel as musicians with the bassoon.",
                 },
                 {
                     role: "Substitute Teacher",
-                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "January 2018", // Preferable format
-                    endPeriod: "May 2018", // End result will look like "Apr 2020 - Present"
+                    type: "Part-Time",
+                    startPeriod: "January 2018",
+                    endPeriod: "May 2018",
                     description: "Taught and managed classrooms while the regular teacher was absent. Led classrooms from pre-school to 12 grade in all subjects.",
                 },
                 {
                     role: "Band Intern",
-                    type: "Full-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "August 2017", // Preferable format
-                    endPeriod: "December 2017", // End result will look like "Apr 2020 - Present"
+                    type: "Full-Time",
+                    startPeriod: "August 2017",
+                    endPeriod: "December 2017",
                     description: "Rehearsed, organized, and conducted the 350-student Pacetti Bay Middle School Band and Jazz Band.",
                 },
             ],
         },
         {
             companyLogo: "https://cdn-vzn.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.266.0.0/tenantlogos/28196.png?yocs=D_NA_.jpg",
-            companyName: "Quay Eyewear", // Company Name
-            companyLocation: "Austin, Texas", // Location of Company
-            roles: [ // Each company can have multiple Roles
+            companyName: "Quay Eyewear",
+            companyLocation: "Austin, Texas",
+            roles: [
                 {
                     role: "Sales Associate",
-                    type: "Part-Time", // Full-Time, Part-Time, Internship, etc...
-                    startPeriod: "April 2021", // Preferable format
-                    endPeriod: "Present", // End result will look like "Apr 2020 - Present"
+                    type: "Part-Time",
+                    startPeriod: "April 2021",
+                    endPeriod: "Present",
                     description: "Worked with customers to help them find the best sunglasses and prescription eyewear for their individual needs. Coordinated with teammates to manage the store, and maintain customer engagement.",
                 },
             ],
@@ -219,17 +207,3 @@ export let skills = {
         },
     ],
 }
-
-
-/*
-
-Portfolio-Bootstrap-React by Joshua Daveston Ahimaz
-
-My Portfolio:
-https://JAhimaz.github.io
-
-My Github:
-https://Github.com/JAhimaz
-
-
-*/
