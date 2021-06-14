@@ -17,10 +17,11 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 
 import { pageStyling } from './EditMe';
+import Footer from './components/Footer';
 
 function App() {
 
-  useEffect(() => {    
+  useEffect(() => {
     var root = document.querySelector(':root');
     root.style.setProperty('--bg-color', pageStyling.backgroundColor);
     root.style.setProperty('--bg-over', pageStyling.foregroundColor);
@@ -47,7 +48,7 @@ function App() {
                   }
                 },
                 size: {
-                  value: 3, 
+                  value: 3,
                 },
                 move: {
                   enable: true,
@@ -87,11 +88,12 @@ function App() {
         <Experience />
         <a name="skills" />
         <Skills />
+        <Footer />
       </header>
     </div>
   );
 
-  
+
 }
 
 export default App;

@@ -40,7 +40,7 @@
 
 .url-icon, .url-icon:active, .url-icon:visited {
     text-decoration: none;
-    color: var(--primary-color);
+    color: "#053744";
 }
 
 .url-icon:hover {

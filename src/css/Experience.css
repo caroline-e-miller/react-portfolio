@@ -20,7 +20,8 @@
 }
 
 .companyLogo {
-    height: 10em;
+    height: 12em;
+    float: left
 }
 
 .companyDetails {

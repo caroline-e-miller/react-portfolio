@@ -13,10 +13,10 @@ function Experience() {
                 {experience.experiences.map((company) =>
                     <Row className="company">
                         <Col xs={12} md={3} style={{ textAlign: "right" }}>
-                            {/* <img className="companyLogo" src={clsx({
-                                'https://quarkerp.com.br/images/logo-placeholder.png' : company.companyLogo == "",
-                                [company.companyLogo] : company.companyLogo != "",
-                            })} /> */}
+                            <img className="companyLogo" style={{ float: 'left' }} src={clsx({
+                                'https://quarkerp.com.br/images/logo-placeholder.png': company.companyLogo == "",
+                                [company.companyLogo]: company.companyLogo != "",
+                            })} />
                         </Col>
                         <Col xs={12} md={9} className="companyDetails">
                             <p className="companyName">{company.companyName}</p>

@@ -143,6 +143,7 @@ export let portfolioCards = [
 export let experience = {
     experiences: [ // Preferably, sort by newest first
         {
+            companyLogo: "https://media.guitarcenter.com/is/image/MMGS7/M100E-Professional-Bassoon/L58593000000000-00-500x500.jpg",
             companyName: "Florida, Colorado, and Texas Public Schools", // Company Name
             companyLocation: "Austin, Texas & St. Augustine, Florida", // Location of Company
             roles: [ // Each company can have multiple Roles
@@ -170,6 +171,7 @@ export let experience = {
             ],
         },
         {
+            companyLogo: "https://cdn-vzn.yottaa.net/555a305b2bb0ac71b9002d22/10ec148069090139fdee0ead9ecbf798.yottaa.net/v~4b.266.0.0/tenantlogos/28196.png?yocs=D_NA_.jpg",
             companyName: "Quay Eyewear", // Company Name
             companyLocation: "Austin, Texas", // Location of Company
             roles: [ // Each company can have multiple Roles
