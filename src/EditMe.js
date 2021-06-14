@@ -93,12 +93,19 @@ export let socials = {
 // About Me ----------------------------------------------------------------------------
 
 export let aboutMe = {
-    description: "I'm an enthusiastic full-stack web developer certified with the Coding Boot Camp at the University of Texas at Austin. My goal is to draw upon my years of teaching experience to bring positivity, problem-solving, and collaboration to the workplace, and work with teams to produce creative solutions. \n \n \n Feel free to reach out to me at caroline.oconnor.miller@gmail.com, or via phone at 970-691-5493.",
+    description: "I'm an enthusiastic full-stack web developer certified with the Coding Boot Camp at the University of Texas at Austin. My goal is to draw upon my years of teaching experience to bring positivity, problem-solving, and collaboration to the workplace, and work with teams to produce creative solutions.",
+    quote: "Feel free to reach out to me at caroline.oconnor.miller@gmail.com, or via phone at 970-691-5493."
 };
 
 // Portfolio ---------------------------------------------------------------------------
 
 export let portfolioCards = [
+    {
+        projectTitle: "Mind Managed",
+        projectDesc: "Mind Managed is an application designed to help users navigate, track, and manage their mental health needs. Complete with journaling, mood data, prescription information, and prescription intake history, Mind Managed aims to take the complicated task of maintaining mental balance and make it a little easier.",
+        projectURL: "https://obscure-beyond-60909.herokuapp.com/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/121830119-ef299e00-cc89-11eb-9b6d-cbbc5c7ef8a1.png"
+    },
     {
         projectTitle: "Week Daze",
         projectDesc: "Week Daze is an application designed for users during a job search. It allows the user to save their applications, application status, and see graphs reflecting the length of time since their application was submitted.",
@@ -116,6 +123,18 @@ export let portfolioCards = [
         projectDesc: "Workout Tracker allows the user to track the duration, type, etc. of workouts and see data rendered in charts that reflects their progress.",
         projectURL: "https://blooming-waters-15181.herokuapp.com/",
         projectImg: "https://user-images.githubusercontent.com/70964778/117221912-d64ae480-adcf-11eb-85ba-14112d86c3ba.png"
+    },
+    {
+        projectTitle: "Worlwide Workers",
+        projectDesc: "Worldwide Workers is a React application that gives the user the ability to sort through a large number of employees by name and nationality.",
+        projectURL: "https://caroline-e-miller.github.io/employee-directory/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/119277450-687f2500-bbe5-11eb-9634-8b79b8976037.png"
+    },
+    {
+        projectTitle: "Readme Generator",
+        projectDesc: "The Readme Generator takes the sometimes-mundane task of writing a Readme file, and turns it into a simple series of command-line questions that results in an elegant Readme that is tailored toward the individual users project.",
+        projectURL: "https://caroline-e-miller.github.io/employee-directory/",
+        projectImg: "https://user-images.githubusercontent.com/70964778/110176328-b8113a00-7dc8-11eb-85b8-757f5576312a.png"
     },
 ];
 
