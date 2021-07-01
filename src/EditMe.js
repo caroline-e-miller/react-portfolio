@@ -138,29 +138,15 @@ export let experience = {
     experiences: [
         {
             companyLogo: "https://media.guitarcenter.com/is/image/MMGS7/M100E-Professional-Bassoon/L58593000000000-00-500x500.jpg",
-            companyName: "Florida, Colorado, and Texas Public Schools",
-            companyLocation: "Austin, Texas & St. Augustine, Florida",
+            companyName: "Texas Public Schools",
+            companyLocation: "Leander and Pflugerville, Texas",
             roles: [
                 {
-                    role: "Private bassoon instructor",
+                    role: "Music teacher",
                     type: "Part-Time",
                     startPeriod: "August 2018",
                     endPeriod: "Present",
                     description: "Teaching students aged 10-18 of all skill levels how to grow and excel as musicians with the bassoon.",
-                },
-                {
-                    role: "Substitute Teacher",
-                    type: "Part-Time",
-                    startPeriod: "January 2018",
-                    endPeriod: "May 2018",
-                    description: "Taught and managed classrooms while the regular teacher was absent. Led classrooms from pre-school to 12 grade in all subjects.",
-                },
-                {
-                    role: "Band Intern",
-                    type: "Full-Time",
-                    startPeriod: "August 2017",
-                    endPeriod: "December 2017",
-                    description: "Rehearsed, organized, and conducted the 350-student Pacetti Bay Middle School Band and Jazz Band.",
                 },
             ],
         },
