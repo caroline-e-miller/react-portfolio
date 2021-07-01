@@ -117,7 +117,7 @@ export let portfolioCards = [
         projectRepo: "Repository: https://github.com/caroline-e-miller/workout-tracker.git"
     },
     {
-        projectTitle: "Worlwide Workers",
+        projectTitle: "Worldwide Workers",
         projectDesc: "Worldwide Workers is a React application that gives the user the ability to sort through a large number of employees by name and nationality.",
         projectURL: "https://caroline-e-miller.github.io/employee-directory/",
         projectImg: "https://user-images.githubusercontent.com/70964778/119277450-687f2500-bbe5-11eb-9634-8b79b8976037.png",
@@ -126,7 +126,7 @@ export let portfolioCards = [
     {
         projectTitle: "Readme Generator",
         projectDesc: "The Readme Generator takes the sometimes-mundane task of writing a Readme file, and turns it into a simple series of command-line questions that results in an elegant Readme that is tailored toward the individual users project.",
-        projectURL: "https://caroline-e-miller.github.io/employee-directory/",
+        projectURL: "https://github.com/caroline-e-miller/readme-generator.git",
         projectImg: "https://user-images.githubusercontent.com/70964778/110176328-b8113a00-7dc8-11eb-85b8-757f5576312a.png",
         projectRepo: "Repository: https://github.com/caroline-e-miller/readme-generator.git"
     },
